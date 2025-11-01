@@ -1,4 +1,4 @@
-# Jekyll IS — Экосистема расширений
+# ![Icon](img/icon-small-o.svg){ width=24px height=24px } Jekyll IS — Экосистема расширений
 
 > **Модульные плагины для Jekyll.**  
 > Один AST. HTML + LaTeX. Без компромисов.
