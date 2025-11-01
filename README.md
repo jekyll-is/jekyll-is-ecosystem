@@ -1,9 +1,7 @@
-# ![Icon](img/icon-small-o.svg){ width=24px height=24px } Jekyll IS — Экосистема расширений
+# Jekyll IS — Экосистема расширений 
 
 > **Модульные плагины для Jekyll.**  
 > Один AST. HTML + LaTeX. Без компромисов.
-
-![Jekyll IS](img/icon-full-o.svg)
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
