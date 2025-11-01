@@ -1,7 +1,7 @@
 # Jekyll IS — Экосистема расширений 
 
 > **Модульные плагины для Jekyll.**  
-> Один AST. HTML + LaTeX. Без компромисов.
+> Один AST. HTML + LaTeX. Без компромиссов.
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
