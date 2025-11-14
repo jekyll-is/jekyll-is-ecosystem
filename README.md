@@ -3,7 +3,20 @@
 > **Модульные плагины для Jekyll.**  
 > Один AST. HTML + LaTeX. Без компромиссов.
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+```mermaid
+graph BT
+  images[jekyll-is-images] --> ial[is-ial-parser]
+  images --> kramdown[is-kramdown-hooked]
+  announcer[jekyll-is-announcer] --> meta
+  pdf[jekyll-is-pdf] --> images
+  meta[jekyll-is-meta] --> images
+  feed[jekyll-is-feed] --> meta
+  span[jekyll-is-span] --> ial
+  index[jekyll-is-index] --> span
+  span --> kramdown
+  tocs[jekyll-is-tocs] --> kramdown
+  robots[jekyll-is-robots]
+```
 
 ---
 
@@ -31,13 +44,6 @@
 ---
 
 ## Архитектура (будущая)
-
-```mermaid
-graph TD
-    A[is-ial-parser] --> B[jekyll-is-span]
-    A --> C[jekyll-is-figure]
-    B --> D[jekyll-is-pdf-book]
-```
 
 [Подробнее → `ARCHITECTURE.md`](ARCHITECTURE.md)
 
