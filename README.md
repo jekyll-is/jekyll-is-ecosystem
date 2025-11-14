@@ -3,6 +3,8 @@
 > **Модульные плагины для Jekyll.**  
 > Один AST. HTML + LaTeX. Без компромиссов.
 
+## Схема зависимостей
+
 ```mermaid
 graph BT
   images[jekyll-is-images] --> ial[is-ial-parser]
