@@ -35,4 +35,3 @@ click span "https://github.com/jekyll-is/jekyll-is-span"
 ---
 
 **Автор**: [Ivan Shikhalev](https://github.com/shikhalev)  
-**Лицензия**: [MIT](LICENSE)
