@@ -18,9 +18,11 @@ kramdown:
 ### Итог по архитектуре плагина is-kramdown-hooked:
 
 ```ruby
+
 class Kramdown::Parser::MyParser < Kramdown::Parser::Kramdown
   ...
 end
+
 ```
 
 - Плагин предоставляет кастомный парсер Kramdown, например, класс `MyParser`, где реализована логика работы с AST.
